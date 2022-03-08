@@ -14,7 +14,7 @@ const ColorsContainer = () => {
       <div className="lives-container">
         <div className="lives-wrapper">
           <div>
-            {heartGenerator(lives)}
+            { heartGenerator(lives) }
           </div>
           <h3>Level: 1 </h3>
         </div>
